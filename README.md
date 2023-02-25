@@ -1,4 +1,4 @@
-# ASS3
+
 
 <html lang="en">
 <head>
@@ -17,6 +17,6 @@ for (String name : names) {
    
 </head>
 <body>
-    
+  <h1>check console</h1>  
 
 </body>
