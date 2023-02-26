@@ -1,44 +1,10 @@
 
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ass4</title>
-    
+<head>
+    <title>Menu</title>
     <style>
-    	.tiles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.tile {
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  text-align: center;
-  line-height: 200px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #333;
-  text-decoration: none;
-}
-
-#menu {
-  background-color: #00a0e4;
-}
-
-#specials {
-  background-color: #ff8500;
-}
-
-#map {
-  background-color: #40b747;
-}
-body {
+        body {
             background-color: #f2f2f2;
             font-family: Arial, sans-serif;
             margin: 0;
@@ -102,16 +68,9 @@ body {
             margin-top: 5px;
         }
     </style>
-    
-  </head>
-  <body>
-    
-    <div class="tiles">
-  <a href="#" class="tile" id="menu">Menu</a>
-  <a href="file:///C:/Users/pc/Desktop/coursera-tes/d.html" class="tile" id="specials" onClick="showRandomCategory()">Specials</a>
-  <a href="#" class="tile" id="map">Map</a>
-</div>
- <header>
+</head>
+<body>
+    <header>
         <h1>specials</h1>
     </header>
     
@@ -175,5 +134,5 @@ body {
         </div>
         <p class="menu-item-description">Cheddar and Swiss cheese on sourdough bread.</p>
     </div>
-  </body>
+</body>
 </html>
